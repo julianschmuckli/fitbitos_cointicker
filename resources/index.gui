@@ -1,0 +1,49 @@
+<svg>
+  <use href="#scrollview">
+    <use href="#scrollview-item" id="one">
+      <text x="50%" y="60"
+        font-family="System-Regular" fill="white"
+        font-size="50" font-weight="bold" width="100%"
+        text-anchor="middle" text-overflow="ellipsis" id="currency_one_title">Loading...                    </text>
+        <text x="20" y="$+5"
+        font-family="System-Regular" fill="white"
+        font-size="40" id="currency_one_price" font-weight="light">                              </text>
+        <text x="20" y="$+10"
+          font-family="System-Regular" fill="white"
+          font-size="30" id="currency_one_percent_1h">                       </text>
+      <text x="20" y="$+10"
+          font-family="System-Regular" fill="white"
+          font-size="30" id="currency_one_percent_24h">                            </text>
+    </use>
+    <use href="#scrollview-item" id="two">
+      <text x="50%" y="60"
+        font-family="System-Regular" fill="white"
+        font-size="50" font-weight="bold" width="100%"
+        text-anchor="middle" text-overflow="ellipsis" id="currency_two_title">Loading...          </text>
+        <text x="20" y="$+5"
+        font-family="System-Regular" fill="white"
+        font-size="40" id="currency_two_price" font-weight="light">Loading...        </text>
+        <text x="20" y="$+10"
+          font-family="System-Regular" fill="white"
+          font-size="30" id="currency_two_percent_1h">              </text>
+      <text x="20" y="$+10"
+          font-family="System-Regular" fill="white"
+          font-size="30" id="currency_two_percent_24h">                </text>
+    </use>
+    <use href="#scrollview-item" id="three">
+      <text x="50%" y="60"
+        font-family="System-Regular" fill="white"
+        font-size="50" font-weight="bold" width="100%"
+        text-anchor="middle" text-overflow="ellipsis" id="currency_three_title">Loading...          </text>
+        <text x="20" y="$+5"
+        font-family="System-Regular" fill="white"
+        font-size="40" id="currency_three_price" font-weight="light">Loading...        </text>
+        <text x="20" y="$+10"
+          font-family="System-Regular" fill="white"
+          font-size="30" id="currency_three_percent_1h">              </text>
+      <text x="20" y="$+10"
+          font-family="System-Regular" fill="white"
+          font-size="30" id="currency_three_percent_24h">                </text>
+    </use>
+  </use>
+</svg>

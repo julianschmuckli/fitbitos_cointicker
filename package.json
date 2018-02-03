@@ -1,0 +1,17 @@
+{
+  "fitbit": {
+    "appUUID": "5ef05d07-349b-4953-b427-d27b4856f209",
+    "appType": "app",
+    "appDisplayName": "CoinTicker",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffc107",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "i18n": {
+      "en": {
+        "name": "CoinTicker"
+      }
+    }
+  }
+}
