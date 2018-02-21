@@ -37,7 +37,7 @@ function restoreSettings() {
   }else{
     console.log("Retrieving data from CoinMarketCap.");
     fetchData(coin_one, coin_two, coin_three);
-    var interval = setInterval(fetchData(coin_one, coin_two, coin_three), 30000);
+    var interval = setInterval(function(){ fetchData(coin_one, coin_two, coin_three) }, 30000);
   }
 }
 

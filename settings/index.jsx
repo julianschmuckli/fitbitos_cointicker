@@ -25,6 +25,8 @@ function mySettings(props) {
             {name:"TRX"},
             {name:"BTG"},
             {name:"ETC"},
+            {name:"NANO"},
+            {name:"LSK"},
             {name:"ETN"},
             {name:"BAR"}
           ]}
@@ -50,6 +52,8 @@ function mySettings(props) {
             {name:"TRX"},
             {name:"BTG"},
             {name:"ETC"},
+            {name:"NANO"},
+            {name:"LSK"},
             {name:"ETN"},
             {name:"BAR"}
           ]}
@@ -75,6 +79,8 @@ function mySettings(props) {
             {name:"TRX"},
             {name:"BTG"},
             {name:"ETC"},
+            {name:"NANO"},
+            {name:"LSK"},
             {name:"ETN"},
             {name:"BAR"}
           ]}
@@ -82,6 +88,10 @@ function mySettings(props) {
         <Text>Currently, the app will sort the coins based on their rank on CoinMarketCap.</Text>
       </Section>
       <Section title={<Text bold align="left">Credits</Text>}>
+        <Text>Creator: <Link source="https://www.schmuckli.net/">Julian Schmuckli</Link></Text>
+        <Text>If you want to donate: <Link source="https://www.schmuckli.net/donations">Donate here</Link></Text>
+      </Section>
+      <Section title={<Text bold align="left">Sources & Licenses</Text>}>
         <Text>Icons made by <Link source="https://www.flaticon.com/authors/smashicons">Smashicons</Link> from <Link source="https://www.flaticon.com/">www.flaticon.com</Link> is licensed by <Link source="http://creativecommons.org/licenses/by/3.0/">CC 3.0 BY</Link></Text>
       </Section>
     </Page>
