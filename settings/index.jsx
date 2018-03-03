@@ -87,6 +87,20 @@ function mySettings(props) {
         />
         <Text>Currently, the app will sort the coins based on their rank on CoinMarketCap.</Text>
       </Section>
+      <Section title={<Text bold align="left">Base currency</Text>}>
+        <Text>Set here the base currency, which you want to display. By default it will show the USD price.</Text>
+        <Select
+          label={`Base currency`}
+          settingsKey="base"
+          options={[
+            {name:"USD"},
+            {name:"CHF"},
+            {name:"EUR"},
+            {name:"GBP"},
+            {name:"JPY"}
+          ]}
+        />
+      </Section>
       <Section title={<Text bold align="left">Credits</Text>}>
         <Text>Creator: <Link source="https://www.schmuckli.net/">Julian Schmuckli</Link></Text>
         <Text>If you want to donate: <Link source="https://www.schmuckli.net/donations">Donate here</Link></Text>
