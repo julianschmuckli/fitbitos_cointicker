@@ -28,7 +28,9 @@ function mySettings(props) {
             {name:"NANO"},
             {name:"LSK"},
             {name:"ETN"},
-            {name:"BAR"}
+            {name:"BAR"},
+            {name:"HBT"},
+            {name:"MSP"}
           ]}
         />
         <Select
@@ -55,7 +57,9 @@ function mySettings(props) {
             {name:"NANO"},
             {name:"LSK"},
             {name:"ETN"},
-            {name:"BAR"}
+            {name:"BAR"},
+            {name:"HBT"},
+            {name:"MSP"}
           ]}
         />
         <Select
@@ -82,7 +86,9 @@ function mySettings(props) {
             {name:"NANO"},
             {name:"LSK"},
             {name:"ETN"},
-            {name:"BAR"}
+            {name:"BAR"},
+            {name:"HBT"},
+            {name:"MSP"}
           ]}
         />
         <Text>Currently, the app will sort the coins based on their rank on CoinMarketCap.</Text>
