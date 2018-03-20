@@ -7,7 +7,7 @@
         text-anchor="middle" text-overflow="ellipsis" id="currency_one_title">Loading...                    </text>
         <text x="20" y="$+5"
         font-family="System-Regular" fill="white"
-        font-size="40" id="currency_one_price" font-weight="light">                              </text>
+        font-size="40" id="currency_one_price" text-overflow="ellipsis" font-weight="light" text-length="10"></text>
         <text x="20" y="$+10"
           font-family="System-Regular" fill="white"
           font-size="30" id="currency_one_percent_1h">                       </text>
@@ -22,7 +22,7 @@
         text-anchor="middle" text-overflow="ellipsis" id="currency_two_title">Loading...          </text>
         <text x="20" y="$+5"
         font-family="System-Regular" fill="white"
-        font-size="40" id="currency_two_price" font-weight="light">Loading...        </text>
+        font-size="40" id="currency_two_price" text-overflow="ellipsis" font-weight="light" text-length="10"></text>
         <text x="20" y="$+10"
           font-family="System-Regular" fill="white"
           font-size="30" id="currency_two_percent_1h">              </text>
@@ -37,7 +37,7 @@
         text-anchor="middle" text-overflow="ellipsis" id="currency_three_title">Loading...          </text>
         <text x="20" y="$+5"
         font-family="System-Regular" fill="white"
-        font-size="40" id="currency_three_price" font-weight="light">Loading...        </text>
+        font-size="40" id="currency_three_price" text-overflow="ellipsis" font-weight="light" text-length="10"></text>
         <text x="20" y="$+10"
           font-family="System-Regular" fill="white"
           font-size="30" id="currency_three_percent_1h">              </text>
