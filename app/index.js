@@ -3,7 +3,8 @@ import * as messaging from "messaging";
 import { vibration } from "haptics";
 
 let colors = {BTC:"#F78818",ETH:"#8C8C8C",LTC:"#BEBEBE",BCH:"#76C353",XRP:"#0092CC",SNT:"#435FDE",MIOTA:"#FFFFFF",ADA:"#216ED8",NEO:"#74BC2A",XEM:"#2CBAAD",XLM:"#D6D9DB",EOS:"#FFFFFF",DASH:"#0076B9",
-             XMR:"#FF6D00",TRX:"#FFFFFF",BTG:"#EAA706",ETC:"#668F73",NANO:"#4B93E2",LSK:"#0B438E",ETN:"#22C3E8",BAR:"#646DA6",HBT:"#249EDD",MSP:"#E85D53"};
+             XMR:"#FF6D00",TRX:"#FFFFFF",BTG:"#EAA706",ETC:"#668F73",NANO:"#4B93E2",LSK:"#0B438E",
+              ETN:"#22C3E8",BAR:"#646DA6",HBT:"#249EDD",MSP:"#E85D53",XTZ:"#4280EF"};
 
 console.log("App Started");
 
